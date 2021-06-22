@@ -7,6 +7,6 @@ url = input('Input URL: ')
 
 html = urllib.request.urlopen(url).read()
 print('result code:', str(urllib.request.urlopen(url).getcode()))
-os.makedirs(os.path.dirname("/home/pavelmuslimov/Desktop/GitHub-repos/python_training/3/files/2_result.html"), exist_ok=True)
+os.makedirs(os.path.dirname("/files/2_result.html"), exist_ok=True)
 with open("/files/2_result.html", 'w') as f:
     f.write(str(html))
