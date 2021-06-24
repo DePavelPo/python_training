@@ -1,5 +1,7 @@
 # Напишите функции поиска НОД и НОК двух чисел.
 
+from .second_example import functiontabl
+
 def gcd(a, b):
     """Нахождение НОД"""
     while a != 0:
